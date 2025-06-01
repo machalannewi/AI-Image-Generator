@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 
 const app = express();
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors({ origin: "https://ai-image-generator-silk-mu.vercel.app" }));
 app.use(express.json());
 
 
